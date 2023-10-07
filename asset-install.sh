@@ -4,17 +4,17 @@ set -e
 
 
 ################################################################################
-### Head: gruvbox
+### Head: layan
 ##
 
-gruvbox_asset_install () {
+layan_asset_install () {
 
 	echo
 	echo
 	echo
 	echo
 	echo "##"
-	echo "## Asset: gruvbox"
+	echo "## Asset: layan"
 	echo "##"
 	echo
 
@@ -28,7 +28,7 @@ gruvbox_asset_install () {
 
 
 ##
-### Tail: gruvbox
+### Tail: layan
 ################################################################################
 
 
@@ -38,7 +38,7 @@ gruvbox_asset_install () {
 
 main_asset_install () {
 
-	gruvbox_asset_install
+	layan_asset_install
 
 }
 

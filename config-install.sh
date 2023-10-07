@@ -4,28 +4,28 @@ set -e
 
 
 ################################################################################
-### Head: gruvbox
+### Head: layan
 ##
 
-gruvbox_config_install () {
+layan_config_install () {
 
 	echo
 	echo "##"
-	echo "## Config: gruvbox"
+	echo "## Config: layan"
 	echo "##"
 	echo
 
 
-	gruvbox_config_install_by_dir
+	layan_config_install_by_dir
 
-	#gruvbox_config_install_by_each_file
+	#layan_config_install_by_each_file
 
 
 	echo
 
 }
 
-gruvbox_config_install_by_dir () {
+layan_config_install_by_dir () {
 
 
 	echo
@@ -41,7 +41,7 @@ gruvbox_config_install_by_dir () {
 
 }
 
-gruvbox_config_install_by_each_file () {
+layan_config_install_by_each_file () {
 
 	return 0
 
@@ -50,18 +50,18 @@ gruvbox_config_install_by_each_file () {
 	mkdir -p "${HOME}/.config"
 
 	echo
-	echo "mkdir -p ${HOME}/.local/share/gruvbox"
-	mkdir -p "${HOME}/.local/share/gruvbox"
+	echo "mkdir -p ${HOME}/.local/share/layan"
+	mkdir -p "${HOME}/.local/share/layan"
 
 	echo
-	echo "install -Dm644 ./asset/overlay/etc/skel/.local/share/gruvbox/Main.colorscheme ${HOME}/.local/share/gruvbox/Main.colorscheme"
-	install -Dm644 "./asset/overlay/etc/skel/.local/share/gruvbox/Main.colorscheme" "${HOME}/.local/share/gruvbox/Main.colorscheme"
+	echo "install -Dm644 ./asset/overlay/etc/skel/.local/share/layan/Main.colorscheme ${HOME}/.local/share/layan/Main.colorscheme"
+	install -Dm644 "./asset/overlay/etc/skel/.local/share/layan/Main.colorscheme" "${HOME}/.local/share/layan/Main.colorscheme"
 
 
 }
 
 ##
-### Tail: gruvbox
+### Tail: layan
 ################################################################################
 
 
@@ -71,7 +71,7 @@ gruvbox_config_install_by_each_file () {
 
 main_config_install () {
 
-	gruvbox_config_install
+	layan_config_install
 
 }
 

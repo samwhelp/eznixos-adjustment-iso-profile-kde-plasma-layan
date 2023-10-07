@@ -1,14 +1,14 @@
 
 
 ##
-## # gruvbox-theme
+## # layan-theme
 ##
 
 
 
 
 ##
-## ## Package / gruvbox
+## ## Package / layan
 ##
 
-#gruvbox
+#layan
