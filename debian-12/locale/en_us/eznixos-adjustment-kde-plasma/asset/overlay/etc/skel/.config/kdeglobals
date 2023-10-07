@@ -1,7 +1,7 @@
 
 [General]
 AllowKDEAppsToRememberWindowPositions=false
-ColorScheme=Gruvbox
+ColorScheme=Layan
 XftSubPixel=none
 fixed=Monospace,12,-1,5,50,0,0,0,0,0
 font=Sans Serif,12,-1,5,50,0,0,0,0,0
@@ -10,18 +10,12 @@ smallestReadableFont=Sans Serif,10,-1,5,50,0,0,0,0,0
 toolBarFont=Sans Serif,11,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=Gruvbox
+Theme=Papirus-Dark
 
 [KDE]
-LookAndFeelPackage=Gruvbox
+LookAndFeelPackage=as.layan-dark.center-panel.desktop
 ShowDeleteCommand=true
 SingleClick=false
 
 [WM]
-activeBackground=49,54,59
-activeBlend=252,252,252
 activeFont=Sans Serif,10,-1,5,50,0,0,0,0,0
-activeForeground=252,252,252
-inactiveBackground=42,46,50
-inactiveBlend=161,169,177
-inactiveForeground=161,169,177
