@@ -16,6 +16,7 @@ Theme=Papirus-Dark
 LookAndFeelPackage=as.layan-dark.center-panel.desktop
 ShowDeleteCommand=true
 SingleClick=false
+widgetStyle=kvantum-dark
 
 [WM]
 activeFont=Sans Serif,10,-1,5,50,0,0,0,0,0
